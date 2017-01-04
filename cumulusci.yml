@@ -1,0 +1,5 @@
+project:
+    name: sf-sandbox-post-copy
+    package:
+        name: Sandbox Post Copy
+        namespace: sbx
