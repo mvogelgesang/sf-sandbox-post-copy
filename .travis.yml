@@ -1,0 +1,10 @@
+language: python
+python: "2.7"
+sudo: false
+branches:
+     only:
+          - travisci
+install:
+  - pip install cumulusci
+# before_script: ./build/scripts/setup_credentials.sh
+script: export CUMULUSCI_KEY=0a2b4c6d8e0f2g4h
