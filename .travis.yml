@@ -3,7 +3,7 @@ python: "2.7"
 sudo: false
 branches:
      only:
-          - travisci
+          - travisci2
 install:
   - pip install cumulusci
 # before_script: ./build/scripts/setup_credentials.sh
